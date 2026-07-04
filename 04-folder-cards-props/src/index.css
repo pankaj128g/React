@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+.parent {
+    /* min-height: 100vh; */
+    /* width: 100%; */
+    background-color: #111;
+    padding: 30px;
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 330px;
+    width: 280px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+
+}
+
+.card .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top img {
+    height: 55px;
+    width: 58px;
+    padding: 2px;
+    border-radius: 50%;
+    border: 1px solid #dadada;
+    
+}
+
+.top button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #dadada;
+    align-items: center;
+    display: flex;
+    background-color: transparent;
+    color: #b1b1b1;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+.center h3 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: Helvetica;
+    font-weight: 600;
+}
+
+.center h4 {
+    font-size: 22px;
+    font-family: Helvetica;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.center span {
+    font-size: 10px;
+    font-weight: 150;
+    color: #8b8b8b;
+    font-family: helvetica;
+}
+
+.center_2 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 5px;
+}
+
+.center_2 h5 {
+    padding: 4px 8px;
+    border-radius: 5px;
+    border: 1px solid #dadada;
+    align-items: center;
+    display: flex;
+    font-weight: 300;
+    font-family: Helvetica;
+    background-color: #dadada;
+    color: black;   ;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+.bottom {
+border-top: 1px solid #dadada;
+justify-content: space-between;
+align-items: center;
+display: flex;
+margin-top: 2px;
+
+}
+
+.bottom h3 {
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: 550;
+    margin-top: 10px;
+}
+
+.card p {
+    color: #8b8b8b;
+    font-family: Helvetica;
+    font-weight: 300;
+    font-size: 12px;
+    /* gap: 5px; */
+    /* margin-top: 20px; */
+}
+
+.bottom button {
+    background-color: #111;
+    color: #fff;
+    font-family: Helvetica;
+    border: 1px solid #111;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: 300;
+    padding: 5px 12px;
+    margin-top: 20px;
+}
